@@ -31,8 +31,8 @@ int main(int argc, char **argv)
 	while ((c = getopt(argc, argv, "hi:d:s:")) != -1)
 	switch(c) {
 		case 'h':
-			printf("\t\tGet actual brightness\n"
-				"-h\t\tHelp\n"
+			printf("-h\t\tHelp\n"
+				"-g\t\tGet current brightness\n"
 				"-i <int>\tIncrement of +int\n"
 				"-d <int>\tDecrement of -int\n"
 				"-s <int>\tSet to 0 <= int <= %s\n", max);
