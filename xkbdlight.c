@@ -77,8 +77,8 @@ int main(int argc, char **argv)
 				printf("Error: option %c requires an argument\n", optopt);
 			break;
 		default:
-			printf("\t\tGet actual brightness\n"
-				"-h\t\tHelp\n"
+			printf("-h\t\tHelp\n"
+				"-g\t\tGet current brightness\n"
 				"-i <int>\tIncrement of +int\n"
 				"-d <int>\tDecrement of -int\n"
 				"-s <int>\tSet to 0 <= int <= %s\n", max);
